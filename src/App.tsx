@@ -58,7 +58,6 @@ function App() {
        <div>
        <button 
           onClick={handleReset} 
-          
         >
           Reiciniar
         </button>
