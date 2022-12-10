@@ -1,0 +1,30 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+.flex-center{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-actions{
+  padding: 8px;
+  background-color: tomato;
+
+  
+}
+
+.container-actions button:disabled{
+  background-color: rgb(63, 63, 63);
+  cursor: no-drop;
+}
+
+.display-clicks{
+  height: 100vh;
+  width: 100vw;
+  background-color: #242426;
+}
